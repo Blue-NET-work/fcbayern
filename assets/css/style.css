@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url("bootstrap/bootstrap.css");
+@import url("bootstrap/bootstrap-theme.css");
+@import url("bootstrap/bootstrap-fcbayern.css");
+@import url("bootstrap/font-awesome.css");
+/* CSS Document */
+
+body{
+	background:#000 url(../img/bgTop.jpg) top center no-repeat;
+}
+
+#logobar{
+	height:140px;
+}
+
+#logobar #logo{
+	display:block;
+	margin-top:50px;
+}
+
+#logobar .champions{
+	margin-top:15px;
+}
+
+#logobar .accessbar li a{
+  background-image: -webkit-linear-gradient(top, #2f2f2f 0%, #010101 100%);
+  background-image:         linear-gradient(to bottom, #2f2f2f 0%, #010101 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#010101', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  color:#fff;
+}
+
+#logobar .accessbar li .dropdown-menu{
+  background-image: -webkit-linear-gradient(top, #2f2f2f 0%, #010101 100%);
+  background-image:         linear-gradient(to bottom, #2f2f2f 0%, #010101 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#010101', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  color:#fff;
+  margin-top:-1px;
+}
+
+#logobar .accessbar li.register a{
+  background-image: -webkit-linear-gradient(top, #3d3d3d 0%, #1f1f1f 100%);
+  background-image:         linear-gradient(to bottom, #3d3d3d 0%, #1f1f1f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d', endColorstr='#1f1f1f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+}
+
+.navbar .search{
+  background-image: -webkit-linear-gradient(top, #104858 0%, #0c3946 100%);
+  background-image:         linear-gradient(to bottom, #104858 0%, #0c3946 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#104858', endColorstr='#0c3946', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  margin-top:-1px;
+  margin-bottom:-1px;
+  padding-bottom:2px;
+  margin-right:-15px;
+}

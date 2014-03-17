@@ -1,79 +1,127 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Dokument bez tytułu</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Fcbayern : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Fcbayern</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/MacFlay/fcbayern">View on GitHub</a>
-
-          <h1 id="project_title">Fcbayern</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/MacFlay/fcbayern/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/MacFlay/fcbayern/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Fcbayern maintained by <a href="https://github.com/MacFlay">MacFlay</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    <!-- header
+    ================================================= -->
+	<header>
+      <div class="container">
     
-
-  </body>
+        <!-- logo bar
+        ================================================= -->
+    	<div class="row" id="logobar">
+        	<div class="col-md-4 col-sm-4 visible-sm visible-md visible-lg">
+            	<a id="logo" href="#"><img src="http://demo.feliscms.pl/_admin/templates/assets/img/logo.png" alt="Logo"></a>
+            </div><!-- ./col-md-4 col-sm-4 -->
+            <div class="col-md-4 col-sm-4 visible-md visible-lg text-right">
+            	<img class="champions" src="assets/img/champions.png" alt="champions">
+            </div><!-- ./col-md-4 col-sm-4 -->
+            <div class="col-md-4 col-sm-4 accessbar">
+            
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">ZALOGUJ <b class="caret"></b></a>
+                     <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                        <li>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                    <div class="form-group">
+                                       <label class="sr-only" for="exampleInputEmail2">Adres e-mail</label>
+                                       <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Adres e-mail" required>
+                                       </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <label class="sr-only" for="exampleInputPassword2">Hasło</label>
+                                       <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Hasło" required>
+                                       </div>
+                                    </div>
+                                    <div class="checkbox">
+                                       <label><input type="checkbox"> Zapamiętaj mnie</label>
+                                    </div>
+                                    <div class="form-group">
+                                       <button type="submit" class="btn btn-default btn-block"><i class="fa fa-sign-in"></i> Zaloguj się</button>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                           <button class="btn btn-danger btn-block" type="button" id="sign-in-google"><i class="fa fa-google-plus"></i> Zaloguj przez Google+</button>
+                           <button class="btn btn-info btn-block" type="button" id="sign-in-twitter"><i class="fa fa-twitter"></i> Zaloguj przez Twitter</button>
+                           <button class="btn btn-primary btn-block" type="button" id="sign-in-facebook"><i class="fa fa-facebook"></i> Zaloguj przez Facebook</button>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="register"><a href="http://www.jquery2dotnet.com">ZAREJESTRUJ</a></li>
+               </ul>
+               
+            </div><!-- ./col-md-4 col-sm-4 -->
+        </div>
+        
+        
+        <!-- menu
+        ================================================= -->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header visible-xs">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <img style="padding:8px;" src="http://demo.feliscms.pl/_admin/templates/assets/img/logo.png" alt="Logo">
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="navbar-right search">
+                  <form class="navbar-form" role="search">
+                    <input type="search" class="form-control" id="exampleInputPassword2" placeholder="Search">
+                    <button type="submit" class="btn btn-black"><i class="fa fa-search"></i></button>
+                  </form>
+              </div><!-- ./search -->
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      
+      </div><!-- ./container -->
+    </header>
+    
+    <!-- jQuery script
+    ================================================= -->
+    <script src="assets/js/jquery-1.11.0.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.js"></script>
+</body>
 </html>

@@ -18,8 +18,15 @@
         	<div class="col-md-4 col-sm-4 visible-sm visible-md visible-lg">
             	<a id="logo" href="#"><img src="http://demo.feliscms.pl/_admin/templates/assets/img/logo.png" alt="Logo"></a>
             </div><!-- ./col-md-4 col-sm-4 -->
-            <div class="col-md-4 col-sm-4 visible-md visible-lg text-right">
-            	<img class="champions" src="assets/img/champions.png" alt="champions">
+            <div class="col-md-4 col-sm-4 visible-md visible-lg text-right champion">
+            	<div>
+                	<img class="champions" src="assets/img/championDate/champion.png" alt="champions">
+                </div>
+                <a href="#"><img src="assets/img/championDate/champion1.png" alt="1"></a>
+                <a href="#"><img src="assets/img/championDate/champion2.png" alt="1"></a>
+                <a href="#"><img src="assets/img/championDate/champion3.png" alt="1"></a>
+                <a href="#"><img src="assets/img/championDate/champion4.png" alt="1"></a>
+                <a href="#"><img src="assets/img/championDate/champion5.png" alt="1"></a>
             </div><!-- ./col-md-4 col-sm-4 -->
             <div class="col-md-4 col-sm-4 accessbar">
             
@@ -57,7 +64,7 @@
                         </li>
                      </ul>
                   </li>
-                  <li class="register"><a href="http://www.jquery2dotnet.com">ZAREJESTRUJ</a></li>
+                  <li class="register"><a href="#">ZAREJESTRUJ</a></li>
                </ul>
                
             </div><!-- ./col-md-4 col-sm-4 -->
@@ -82,23 +89,24 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="menu">
               <ul class="nav navbar-nav">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">HOME</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">FC BAYERN</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">KADRA</a></li>
+                    <li><a href="#">INFORMACJE</a></li>
+                    <li><a href="#">SUKCESY</a></li>
+                    <li><a href="#">STROJE</a></li>
+                    <li><a href="#">ALLIANZ ARENA</a></li>
+                    <li><a href="#">SPONSORZY</a></li>
+                    <li><a href="#">HYMN</a></li>
                   </ul>
                 </li>
+                <li><a href="#">SEZON</a></li>
+                <li><a href="#">LEGENDY</a></li>
+                <li><a href="#">HISTORIA</a></li>
+                <li><a href="#">DLA KIBICA</a></li>
+                <li><a href="#">SERWIS</a></li>
               </ul>
               <div class="navbar-right search">
                   <form class="navbar-form" role="search">
@@ -113,9 +121,71 @@
       </div><!-- ./container -->
     </header>
     
+    <!-- Slider
+    ================================================= -->
+    <section id="slider">
+        <div class="container">
+            <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+              	<!-- klip-->
+                <div class="item active">
+                  <img src="assets/img/slider/slide.jpg" alt="...">
+                  <div class="carousel-caption">
+                    Opis dla klipu
+                  </div>
+                </div>
+                
+              </div>
+            
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Content
+    ================================================= -->
+    <section id="content">
+        <div class="container">
+        	<!-- pierwsza sekcja -->
+        	<div class="row margin-top-25 margin-bottom-25">
+            	<!-- lewa -->
+            	<div class="col-md-8">
+                </div>
+                <!-- prawa -->
+                <div class="col-md-4">
+                	<div class="text-center">
+                    	<a href="#"><img src="assets/img/sklepKibica.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        	<!-- pierwsza sekcja -->
+        </div>
+    </section>
+    
+    
+    
+    <!-- Footer
+    ================================================= -->
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+    
     <!-- jQuery script
     ================================================= -->
     <script src="assets/js/jquery-1.11.0.js"></script>
     <script src="assets/js/bootstrap/bootstrap.js"></script>
+    <script>
+		$('.collapse').collapse();
+	</script>
 </body>
 </html>

@@ -186,6 +186,7 @@ footer .container{
 }
 
 .newsItems .photo .infoBar .comments{
+	display:inline-block;
 	background-image: -webkit-linear-gradient(top, #173967 0%, #0f2d55 100%);
 	background-image:         linear-gradient(to bottom, #173967 0%, #0f2d55 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#173967', endColorstr='#0f2d55', GradientType=0);
@@ -196,6 +197,20 @@ footer .container{
 	font-size:11px;
 	color:#fff;
 	padding:4px 8px;
+}
+
+.newsItems .photo .infoBar .date{
+	display:inline-block;
+	background-image: -webkit-linear-gradient(top, #000000 0%, #171717 100%);
+	background-image:         linear-gradient(to bottom, #000000 0%, #171717 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#171717', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	font-family:Kalinga;
+	font-weight:bold;
+	font-size:9px;
+	color:#9b9b9b;
+	padding:6px 8px 5px;
 }
 
 .newsItems .more{

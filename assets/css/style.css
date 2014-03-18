@@ -232,3 +232,15 @@ footer .container{
 	color:#fd0225;
 	font-weight:bold;
 }
+
+
+/********************************************************/
+/*                  	   content 	                    */
+/********************************************************/
+#sliderBottom{
+	background-image: -webkit-linear-gradient(top, #e7e5e5 0%, #e1e1e1 100%);
+	background-image:         linear-gradient(to bottom, #e7e5e5 0%, #e1e1e1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e5e5', endColorstr='#e1e1e1', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+}

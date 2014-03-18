@@ -65,7 +65,7 @@ nav.navbar .navbar-nav .dropdown .dropdown-menu{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#171717', endColorstr='#000000', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  margin-top:-1px;
+  margin-top:1px;
   border-radius:0;
   min-width:120px;
   border:none;

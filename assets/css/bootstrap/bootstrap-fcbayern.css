@@ -32,8 +32,12 @@ nav.navbar .navbar-nav li > a{
 	padding:15px 23px;
 	font-weight:bold;
 	text-shadow:1px 1px rgba(255,255,255, 0.9);
-	border-right:1px solid rgba(255,255,255, 0.5);
+	border-left:1px solid rgba(255,255,255, 0.5);
+	border-right:1px solid #c6c6c6;
 	color:#2c2c2c;
+}
+nav.navbar .navbar-nav li:first-child > a{
+	border-left:0;
 }
 nav.navbar .navbar-nav li:last-child > a{
 	border-right:0;
@@ -51,6 +55,7 @@ nav.navbar .navbar-nav .dropdown.open > a{
 	padding-top:21px;
   	-webkit-box-shadow: 0 0px 15px rgba(0, 0, 0, .9);
 	box-shadow: 0 0px 15px rgba(0, 0, 0, .9);
+	border-left:1px solid rgba(0,0,0,0.0);
 	border-right:1px solid rgba(0,0,0,0.0);
 }
 
@@ -69,7 +74,7 @@ nav.navbar .navbar-nav .dropdown .dropdown-menu{
 }
 
 nav.navbar .navbar-nav .dropdown .dropdown-menu > li > a{
-	border-right:0;
+	border:0;
 	color:#fff;
 	border-bottom:1px solid #262626;
   	padding: 8px 19px 8px 19px;

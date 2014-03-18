@@ -196,7 +196,12 @@ footer .container{
 	font-weight:bold;
 	font-size:11px;
 	color:#fff;
-	padding:4px 8px;
+}
+
+.newsItems .photo .infoBar .comments i,
+.newsItems .photo .infoBar .comments span{
+	display:inline-table;
+	padding:4px 6px;
 }
 
 .newsItems .photo .infoBar .date{
@@ -208,9 +213,19 @@ footer .container{
 	background-repeat: repeat-x;
 	font-family:Kalinga;
 	font-weight:bold;
-	font-size:9px;
+	font-size:10px;
 	color:#9b9b9b;
-	padding:6px 8px 5px;
+}
+
+.newsItems .photo .infoBar .date span{
+	display:inline-table;
+	padding:5px 8px 4px;
+}
+
+.newsItems .photo .infoBar .space{
+	display:inline !important;
+	border-right:1px solid rgba(255,179,179, 0.13);
+	padding:0 !important;
 }
 
 .newsItems .more{

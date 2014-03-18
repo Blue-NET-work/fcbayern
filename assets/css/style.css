@@ -142,3 +142,39 @@ footer .container{
 #content .container{
 	max-width:1035px;
 }
+
+.newsItems{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#343434;
+}
+
+.newsItems h3{
+	background:url(../img/news/newsTitleBg.jpg) no-repeat left bottom;
+	text-transform:uppercase;
+	color:#173967;
+	font-size:16px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.newsItems .author{	
+	background-image: -webkit-linear-gradient(top, #eee9e9 0%, #b5b5b5 100%);
+	background-image:         linear-gradient(to bottom, #eee9e9 0%, #b5b5b5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee9e9', endColorstr='#b5b5b5', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+
+	position:relative;
+	font-size:10px;
+	color:#000000;
+	display:table;
+	margin-left:auto;
+	right:0px;
+	padding:2px 4px;
+}
+
+.newsItems .more{
+	color:#fd0225;
+	font-weight:bold;
+}

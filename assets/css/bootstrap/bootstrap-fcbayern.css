@@ -10,9 +10,9 @@
 	margin-bottom:0;
 }
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, #e9e9e9 0%, #c7c7c7 100%);
-  background-image:         linear-gradient(to bottom, #e9e9e9 0%, #c7c7c7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#c7c7c7', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #c7c7c7 100%);
+  background-image:         linear-gradient(to bottom, #efefef 0%, #c7c7c7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#c7c7c7', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
@@ -32,7 +32,7 @@ nav.navbar .navbar-nav li > a{
 	padding:15px 23px;
 	font-weight:bold;
 	text-shadow:1px 1px rgba(255,255,255, 0.9);
-	border-right:1px solid #c6c6c6;
+	border-right:1px solid rgba(255,255,255, 0.5);
 	color:#2c2c2c;
 }
 nav.navbar .navbar-nav li:last-child > a{

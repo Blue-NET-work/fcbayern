@@ -185,6 +185,19 @@ footer .container{
 	left:0px;
 }
 
+.newsItems .photo .infoBar .comments{
+	background-image: -webkit-linear-gradient(top, #173967 0%, #0f2d55 100%);
+	background-image:         linear-gradient(to bottom, #173967 0%, #0f2d55 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#173967', endColorstr='#0f2d55', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	font-family:Kalinga;
+	font-weight:bold;
+	font-size:11px;
+	color:#fff;
+	padding:4px 8px;
+}
+
 .newsItems .more{
 	color:#fd0225;
 	font-weight:bold;

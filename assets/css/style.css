@@ -101,13 +101,14 @@ footer .container{
 }
 
 #logobar .accessbar li .dropdown-menu{
-  background-image: -webkit-linear-gradient(top, #2f2f2f 0%, #010101 100%);
-  background-image:         linear-gradient(to bottom, #2f2f2f 0%, #010101 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#010101', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #010101 0%, #2f2f2f 100%);
+  background-image:         linear-gradient(to bottom, #010101 0%, #2f2f2f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#010101', endColorstr='#2f2f2f', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   color:#fff;
   margin-top:-1px;
+  border-radius:0;
 }
 
 #logobar .accessbar li.register a{
@@ -172,6 +173,16 @@ footer .container{
 	margin-left:auto;
 	right:0px;
 	padding:2px 4px;
+}
+
+.newsItems .photo{
+	position:relative;	
+}
+
+.newsItems .photo .infoBar{
+	position:absolute;
+	bottom:0px;
+	left:0px;
 }
 
 .newsItems .more{

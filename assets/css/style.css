@@ -106,9 +106,12 @@ footer .container{
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#010101', endColorstr='#2f2f2f', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  color:#fff;
   margin-top:-1px;
+  margin-right:-1px;
+  min-width: 220px;
   border-radius:0;
+  padding: 15px 15px 5px;
+  color:#fff;
 }
 
 #logobar .accessbar li.register a{
@@ -150,11 +153,16 @@ footer .container{
 	color:#343434;
 }
 
+.newsItems .space-mobile{
+	margin-bottom:25px;
+}
+
 .newsItems h3{
 	background:url(../img/news/newsTitleBg.jpg) no-repeat left bottom;
 	text-transform:uppercase;
 	color:#173967;
 	font-size:16px;
+	margin-top:5px;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
@@ -196,6 +204,11 @@ footer .container{
 	font-weight:bold;
 	font-size:11px;
 	color:#fff;
+}
+
+.newsItems .photo .infoBar .comments i.icons-comment-maiki{
+	background:url(../img/news/icon-comment.jpg) center no-repeat;
+	width:20px;
 }
 
 .newsItems .photo .infoBar .comments i,

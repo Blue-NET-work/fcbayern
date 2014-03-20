@@ -246,14 +246,120 @@ footer .container{
 	font-weight:bold;
 }
 
+/* other news position */
+
+#otherNews{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#otherNews tr{
+	border-bottom:1px solid #d6d6d6;
+}
+
+#otherNews td{
+	border-top:0;
+	padding:3px;
+}
+
+#otherNews .otherArrow,
+#otherNews .otherMore{
+	background-image: -webkit-linear-gradient(top, #ff153a 0%, #c21123 100%);
+	background-image:         linear-gradient(to bottom, #ff153a 0%, #c21123 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff153a', endColorstr='#c21123', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	color:#fff;
+	text-shadow: 1px 1px rgba(0,0,0,.7);
+	text-align:center;
+	vertical-align:middle;
+}
+#otherNews .otherArrow{
+	width:28px;
+}
+
+#otherNews .otherTitle{
+	background-image: -webkit-linear-gradient(top, #fff 0%, #dbdbdb 100%);
+	background-image:         linear-gradient(to bottom, #fff 0%, #dbdbdb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#dbdbdb', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	font-size:14px;
+	color:#302d2d;
+	padding-left:10px;
+}
+
+#otherNews .otherDate{
+	background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #cdcdcd 100%);
+	background-image:         linear-gradient(to bottom, #e8e8e8 0%, #cdcdcd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#cdcdcd', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	font-size:12px;
+	color:#000;
+	text-shadow:1px 1px rgba(255,255,255, .5);
+	padding:5px;
+	width:130px;
+}
+
+#otherNews .otherDate span{
+	padding-left:5px;
+}
+
+#otherNews .otherComments,
+#otherNews .otherCommentsIcon{
+	background-image: -webkit-linear-gradient(top, #0f4c5d 0%, #0d3947 100%);
+	background-image:         linear-gradient(to bottom, #0f4c5d 0%, #0d3947 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f4c5d', endColorstr='#0d3947', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	max-width:30px;
+	vertical-align:middle;
+	text-align:center;
+}
+#otherNews .otherCommentsIcon{
+	border-right:1px solid rgba(233,233,233, .08);
+}
+
+#otherNews .otherCommentsIcon i.icons-comment-maiki{
+	display:block;
+	background:url(../img/news/icon-comment.jpg) center no-repeat;
+	width:18px;
+	height:18px;
+	margin:0;
+	padding:0;
+}
+
+#otherNews .otherComments .comments{
+	font-size:12px;
+	color:#f9f9f9;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+	
+}
+
+#otherNews .otherMore a{
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+}
+
+#otherNews h3.otherNews{
+	background:url(../img/news/otherNews.jpg) no-repeat left bottom;
+	color:#ff001a;
+}
+
+#otherNews h3.articles{
+	background:url(../img/news/articles.jpg) bottom left no-repeat;
+	color:#7f7f7f;
+}
 
 /********************************************************/
 /*                  	   content 	                    */
 /********************************************************/
-#sliderBottom{
+#sliderBottom .container{
 	background-image: -webkit-linear-gradient(top, #e7e5e5 0%, #e1e1e1 100%);
 	background-image:         linear-gradient(to bottom, #e7e5e5 0%, #e1e1e1 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e5e5', endColorstr='#e1e1e1', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 	background-repeat: repeat-x;
+	max-width:1035px;
 }

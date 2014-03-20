@@ -10,9 +10,11 @@ body{
 }
 
 header .container,
-section .container,
 footer .container{
 	max-width:1065px;
+}
+section .container{
+	max-width:1035px;
 }
 
 
@@ -127,6 +129,10 @@ footer .container{
 /********************************************************/
 /*                  	   slider 	                    */
 /********************************************************/
+#slider .container{	
+	max-width:1065px;
+}
+
 #slider .container #carousel-generic{
 	background:url(../img/slider/slideBg.jpg) no-repeat top right;
 	height:402px;
@@ -136,10 +142,12 @@ footer .container{
 /********************************************************/
 /*                  	   content 	                    */
 /********************************************************/
-#content{
+#content, #shoutboxPolling{
 	max-width:1035px;
 	margin:0 auto;
 	background:#fff;
+}
+#content{
   	-webkit-box-shadow: 0 -4px 15px rgba(0, 0, 0, .9);
 	box-shadow: 0 -4px 15px rgba(0, 0, 0, .9);
 }
@@ -361,5 +369,4 @@ footer .container{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e5e5', endColorstr='#e1e1e1', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 	background-repeat: repeat-x;
-	max-width:1035px;
 }

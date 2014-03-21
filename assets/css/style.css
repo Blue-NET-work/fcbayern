@@ -9,11 +9,11 @@ body{
 	background:#000 url(../img/bgTop.jpg) top center no-repeat;
 }
 
-header .container,
-footer .container{
+header .container{
 	max-width:1065px;
 }
-section .container{
+section .container,
+footer .container{
 	max-width:1035px;
 }
 

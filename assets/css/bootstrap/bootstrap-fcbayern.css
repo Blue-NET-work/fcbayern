@@ -123,3 +123,22 @@ nav.navbar .search .btn{
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
+
+
+/* Progres bar polling */
+
+.progress-fcbayern{
+	height: 11px;
+	margin-bottom: 15px;
+	border-radius:0px 4px 4px 0px;
+}
+
+.progress .progress-bar-fcbayern{
+}
+.progress-bar-fcbayern {
+	background-image: -webkit-linear-gradient(top, #ff002a 0%, #c7071a 100%);
+	background-image:         linear-gradient(to bottom, #ff002a 0%, #c7071a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002a', endColorstr='#c7071a', GradientType=0);
+	background-repeat: repeat-x;
+	border-radius:0px 5px 5px 0px;
+}

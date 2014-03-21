@@ -363,7 +363,7 @@ section .container{
 }
 
 /********************************************************/
-/*                  	   content 	                    */
+/*                  sliderBottom 	                    */
 /********************************************************/
 #sliderBottom .container{
 	background-image: -webkit-linear-gradient(top, #e7e5e5 0%, #e1e1e1 100%);
@@ -371,4 +371,89 @@ section .container{
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e5e5', endColorstr='#e1e1e1', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 	background-repeat: repeat-x;
+}
+
+/********************************************************/
+/*              Shoutbox / Ankieta 	                    */
+/********************************************************/
+#shoutboxPolling .shoutbox{
+}
+
+#shoutboxPolling .shoutbox h3.shoutboxTitle{
+	background:url(../img/bgShoutbox.jpg) no-repeat top left;
+	color:#fff;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+	border-bottom:3px solid #9e0c21;
+	padding:15px 10px 4px;
+	font-weight:normal;
+}
+
+#shoutboxPolling .shoutbox h3.shoutboxTitle span{
+	color:#000;
+	text-shadow:none;
+	font-size:14px;
+	display:inline-block;
+	padding:3px 25px;
+}
+
+.shoutboxArchive a{
+	color:#000;
+	font-weight:bold;
+}
+
+#shoutboxPolling .polling{
+	color:#000;
+}
+
+.polling h3.pollingTitle{
+	background:url(../img/bgPolling.jpg) no-repeat top left;
+	color:#fff;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+	border-bottom:3px solid #9e0c21;
+	padding:15px 10px 5px;
+	font-weight:normal;
+}
+
+.pollingStat{
+	color:#000;
+	font-weight:bold;
+	
+}
+
+.pollingStat span{
+	color:#fb0024;
+}
+
+/********************************************************/
+/*              		footer	 	                    */
+/********************************************************/
+footer{
+	background-image: -webkit-linear-gradient(top, #fc032c 0%, #d90d20 100%);
+	background-image:         linear-gradient(to bottom, #fc032c 0%, #d90d20 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc032c', endColorstr='#d90d20', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+}
+.footer{
+	background:url(../img/bgFooter.png) repeat;
+	min-height:262px;
+}
+.footer h3{
+	color:#fff;
+	font-size:15px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+footer .footerButton div.row{
+	margin:0px;
+}
+
+footer .footerButton div div.col-md-2{
+	padding:0;
+}
+
+footer .copyright,
+footer .copyright a{
+	color:rgba(255,255,255,.61);
+	text-transform:uppercase;
 }

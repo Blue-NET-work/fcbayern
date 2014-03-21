@@ -280,6 +280,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);
   background-repeat: repeat-x;
 }
+.progress-bar-fcbayern {
+  background-image: -webkit-linear-gradient(top, #ff002a 0%, #c7071a 100%);
+  background-image:         linear-gradient(to bottom, #ff002a 0%, #c7071a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002a', endColorstr='#c7071a', GradientType=0);
+  background-repeat: repeat-x;
+  border-radius:0px 5px 5px 0px;
+}
 .list-group {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);

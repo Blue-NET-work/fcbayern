@@ -444,6 +444,20 @@ footer{
 	font-weight:normal;
 	text-transform:uppercase;
 }
+footer .statistic{
+	font-family:Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	padding-left:15px;
+	list-style:none;
+	font-size:12px;
+	color:#302d2d;
+}
+footer .statistic li{
+	margin:10px 0;
+}
+footer .statistic li span{
+	color:#fff;
+}
 footer .footerButton div.row{
 	margin:0px;
 }
@@ -451,7 +465,6 @@ footer .footerButton div.row{
 footer .footerButton div div.col-md-2{
 	padding:0;
 }
-
 footer .copyright,
 footer .copyright a{
 	color:rgba(255,255,255,.61);

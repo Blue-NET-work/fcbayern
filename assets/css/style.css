@@ -363,6 +363,99 @@ footer .container{
 }
 
 /********************************************************/
+/*                  	mecze	 	                    */
+/********************************************************/
+#mecze{
+	color:#bad2d9;
+}
+
+#mecze .nav-tabs{
+	border:none;
+}
+
+#mecze .nav-tabs li{
+	width:50%;
+}
+
+#mecze .nav-tabs a{
+	margin:0;
+	border:none;
+	border-radius:0;
+	padding:10px 10px 8px;
+}
+
+#mecze .nav-tabs .active a{
+	margin-top:-3px;
+	padding-top:13px;
+	padding-bottom:8px;
+}
+
+#mecze #meczLastCart{
+	background:url(../img/mecze/bgmeczLast.png) no-repeat left top;
+	color:rgba(0,0,0,.8);
+	text-shadow:1px 1px rgba(255,255,255,.3);
+}
+
+#mecze .active #meczLastCart{
+	background:url(../img/mecze/bgmeczLastActive.png) right top no-repeat;
+	color:#fff;
+	font-size:14px;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+}
+
+#mecze .tab-content #meczLast{
+	background-image: -webkit-linear-gradient(top, #093340 0%, #041115 100%);
+	background-image:         linear-gradient(to bottom, #093340 0%, #041115 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#093340', endColorstr='#041115', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	padding:10px;
+}
+
+#mecze .tab-content h4{
+	font-size:10px;
+}
+
+#mecze .tab-content .meczWynik{
+	color:#fff;
+	font-size:36px;
+	text-shadow:1px 1px rgba(0,0,0,.8);
+	margin-top:20px;
+}
+
+#mecze .tab-content .meczGdzie{
+	font-size:9px;
+}
+
+
+#mecze #meczNextCart{
+	background:url(../img/mecze/bgmeczNext.png) no-repeat right top;
+	color:#000;
+	text-shadow:1px 1px rgba(255,255,255,.3);
+	padding-left:20px;
+}
+
+#mecze .active #meczNextCart{
+	background:url(../img/mecze/bgmeczNextActive.png) no-repeat left top;
+	color:#fff;
+	font-size:14px;
+	text-shadow:1px 1px rgba(0,0,0,.5);
+	margin-top:0px; 
+	padding-top:11px;
+	padding-bottom:7px;
+}
+
+#mecze .tab-content #meczNext{
+	background-image: -webkit-linear-gradient(top, #1a5565 0%, #1e7f9a 100%);
+	background-image:         linear-gradient(to bottom, #1a5565 0%, #1e7f9a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a5565', endColorstr='#1e7f9a', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	padding:10px;
+}
+
+
+/********************************************************/
 /*                  sliderBottom 	                    */
 /********************************************************/
 #sliderBottom .container{

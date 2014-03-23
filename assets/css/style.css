@@ -454,9 +454,11 @@ footer .statistic{
 }
 footer .statistic li{
 	margin:10px 0;
+	text-shadow:1px 1px rgba(255,255,255,.2);
 }
 footer .statistic li span{
 	color:#fff;
+	text-shadow:none;
 }
 footer .footerButton div.row{
 	margin:0px;

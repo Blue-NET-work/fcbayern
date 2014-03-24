@@ -32,9 +32,7 @@ nav.navbar .navbar-collapse{
 nav.navbar .navbar-nav li > a{
     font-family: "Helvetica";
 	font-weight:bold;
-	font-size:15px;
-	font-size:1.1em;
-	font-stretch:narrower;
+	font-size:15px/1.2ex;
 	padding:15px 20px;
 	text-shadow:1px 1px rgba(255,255,255, 0.3);
 	border-left:1px solid rgba(255,255,255, 0.5);

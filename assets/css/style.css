@@ -3,6 +3,7 @@
 @import url("bootstrap/bootstrap-theme.css");
 @import url("bootstrap/bootstrap-fcbayern.css");
 @import url("bootstrap/font-awesome.css");
+@import url("fonts.css");
 /* CSS Document */
 
 body{
@@ -94,14 +95,19 @@ footer .container{
 	margin-top:15px;
 }
 
+#logobar .accessbar{
+}
+
 #logobar .accessbar li a{
   background-image: -webkit-linear-gradient(top, #2f2f2f 0%, #010101 100%);
   background-image:         linear-gradient(to bottom, #2f2f2f 0%, #010101 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#010101', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  color:#fff;
+  color:#aeaeae;
   padding:8px 15px;
+    font-family: "NexaLight";
+	font-size:11px;
 }
 
 #logobar .accessbar li .dropdown-menu{

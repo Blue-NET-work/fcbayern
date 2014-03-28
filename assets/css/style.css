@@ -362,11 +362,13 @@ footer .container{
 	background:url(../img/news/otherNews.jpg) no-repeat left bottom;
 	color:#ff001a;
 }
+#otherNews h3.otherNews a{color:#ff001a;}
 
 #otherNews h3.articles{
 	background:url(../img/news/articles.jpg) bottom left no-repeat;
 	color:#7f7f7f;
 }
+#otherNews h3.articles a{color:#7f7f7f;}
 
 /********************************************************/
 /*                  	mecze	 	                    */

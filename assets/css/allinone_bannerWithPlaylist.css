@@ -369,23 +369,23 @@ skins available:
 .allinone_bannerWithPlaylist.easy .thumbsHolderWrapper {
 	position:absolute;
 	height:100%;
-	overflow:hidden;
 }
 
 .allinone_bannerWithPlaylist.easy .thumbsHolderVisibleWrapper {
 	position:absolute;
 	height:100%;
-	overflow:hidden;
 }
 
 .allinone_bannerWithPlaylist.easy .thumbsHolder {
-	background:url(../img/slider/slideBg.jpg) no-repeat top right;
+	background:url(../img/slider/slideBg.jpg) repeat fixed right;
 	position:absolute;
 }
 
 .allinone_bannerWithPlaylist.easy .thumbsHolder_ThumbOFF {
 	display:block;
-	height:164px;
+	height:200px;
+	padding-top:21px;
+	padding-bottom:21px;
 	text-align:left;
 	line-height:1.4em;
 	cursor: pointer;
@@ -417,7 +417,14 @@ skins available:
 
 .allinone_bannerWithPlaylist.easy .thumbsHolder_ThumbON {
 	background:url(../img/slider/arrowBg.png) no-repeat left top;
-	z-index:4;
+	position:relative;
+	left:-36px;
+	padding-left:36px;
+	z-index:10;
+	width:415px;
+	height:200px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .allinone_bannerWithPlaylist.easy .thumbsHolder_ThumbON .title {

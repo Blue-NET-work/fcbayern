@@ -358,17 +358,22 @@ footer .container{
 	text-shadow:1px 1px rgba(0,0,0,.5);
 }
 
-#otherNews h3.otherNews{
-	background:url(../img/news/otherNews.jpg) no-repeat left bottom;
-	color:#ff001a;
+#otherNews ul{
+	border:none;
 }
-#otherNews h3.otherNews a{color:#ff001a;}
 
-#otherNews h3.articles{
+#otherNews h3{
 	background:url(../img/news/articles.jpg) bottom left no-repeat;
 	color:#7f7f7f;
 }
-#otherNews h3.articles a{color:#7f7f7f;}
+#otherNews h3 a{color:#7f7f7f;}
+
+#otherNews .active h3{
+	background:url(../img/news/otherNews.jpg) no-repeat left bottom;
+	color:#ff001a;
+}
+#otherNews .active h3 a{color:#ff001a;}
+
 
 /********************************************************/
 /*                  	mecze	 	                    */
